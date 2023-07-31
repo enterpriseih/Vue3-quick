@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Author: 于振友
+ * @Date: 2023-07-31 09:47:07
+ * @LastEditors: 于振友
+ * @LastEditTime: 2023-07-31 10:24:07
+ */
 import { createRouter, createWebHistory } from 'vue-router'
 import Layout from '../components/Layout.vue'
 
@@ -26,6 +33,11 @@ const routes = [
         path: '/proxy',
         name: 'proxy',
         component: () => import(/* webpackChunkName: "about" */ '../views/3.proxy.vue')
+      },
+      {
+        path: '/computed',
+        name: 'computed',
+        component: () => import(/* webpackChunkName: "about" */ '../views/4.computed.vue')
       }
     ]
   },
