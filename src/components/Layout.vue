@@ -27,6 +27,16 @@ export default defineComponent({
         { title: '3.响应式原理', path: '/proxy' },
         { title: '4.计算属性computed', path: '/computed' },
         { title: '5.监听watch', path: '/watch' },
+        { title: '6.生命周期', path: '/lifecycle' },
+        { title: '7.hooks', path: '/hooks' },
+        { title: '8.toRef与toRefs', path: '/toRef' },
+        { title: '9.shallowReactive 与 shallowRef', path: '/shallowReactive' },
+        { title: '10.readonly 与 shallowReadonly', path: '/readonly' },
+        { title: '11.toRaw 与 markRaw', path: '/toRaw' },
+        { title: '12.customRef', path: '/customRef' },
+        { title: '13.provide 与 inject', path: '/provide' },
+        { title: '问题', path: '/question' },
+        { title: 'Element Plus', path: '/elementPlus' },
       ],
       active: '/'
     })
@@ -79,7 +89,7 @@ export default defineComponent({
     }
 
     ul li {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
       text-align: left;
 
     }

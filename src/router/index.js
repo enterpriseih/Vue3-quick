@@ -43,6 +43,51 @@ const routes = [
         path: '/watch',
         name: 'watch',
         component: () => import(/* webpackChunkName: "about" */ '../views/5.watch.vue')
+      },
+      {
+        path: '/lifecycle',
+        name: 'lifecycle',
+        component: () => import(/* webpackChunkName: "about" */ '../views/6.lifecycle')
+      },
+      {
+        path: '/hooks',
+        name: 'hooks',
+        component: () => import(/* webpackChunkName: "about" */ '../views/7.hooks')
+      },
+      {
+        path: '/toRef',
+        name: 'toRef',
+        component: () => import(/* webpackChunkName: "about" */ '../views/8.toRef')
+      },
+      {
+        path: '/shallowReactive',
+        name: '.shallowReactive',
+        component: () => import(/* webpackChunkName: "about" */ '../views/9.shallowReactive')
+      },
+      {
+        path: '/readonly',
+        name: 'readonly',
+        component: () => import(/* webpackChunkName: "about" */ '../views/10.readonly')
+      },
+      {
+        path: '/toRaw',
+        name: 'toRaw',
+        component: () => import(/* webpackChunkName: "about" */ '../views/11.toRaw')
+      },
+      {
+        path: '/customRef',
+        name: 'customRef',
+        component: () => import(/* webpackChunkName: "about" */ '../views/12.customRef')
+      },
+      {
+        path: '/provide',
+        name: 'provide',
+        component: () => import(/* webpackChunkName: "about" */ '../views/13.provide')
+      },
+      {
+        path: '/question',
+        name: 'question',
+        component: () => import(/* webpackChunkName: "about" */ '../views/question')
       }
     ]
   },
