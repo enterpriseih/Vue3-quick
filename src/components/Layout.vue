@@ -26,6 +26,7 @@ export default defineComponent({
         { title: '2.reactive 函数', path: '/reactive' },
         { title: '3.响应式原理', path: '/proxy' },
         { title: '4.计算属性computed', path: '/computed' },
+        { title: '5.监听watch', path: '/watch' },
       ],
       active: '/'
     })

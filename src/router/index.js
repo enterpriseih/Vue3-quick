@@ -38,6 +38,11 @@ const routes = [
         path: '/computed',
         name: 'computed',
         component: () => import(/* webpackChunkName: "about" */ '../views/4.computed.vue')
+      },
+      {
+        path: '/watch',
+        name: 'watch',
+        component: () => import(/* webpackChunkName: "about" */ '../views/5.watch.vue')
       }
     ]
   },

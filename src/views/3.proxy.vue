@@ -56,6 +56,7 @@ export default defineComponent({
     const changeValue = () => {
       p.name
       p.name = '李四';
+      delete p.age
       // p.job = 'web'
     }
 
