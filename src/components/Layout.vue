@@ -35,7 +35,7 @@ export default defineComponent({
         { title: '11.toRaw 与 markRaw', path: '/toRaw' },
         { title: '12.customRef', path: '/customRef' },
         { title: '13.provide 与 inject', path: '/provide' },
-        { title: '问题', path: '/question' },
+        // { title: '问题', path: '/question' },
         { title: 'Element Plus', path: '/elementPlus' },
       ],
       active: '/'

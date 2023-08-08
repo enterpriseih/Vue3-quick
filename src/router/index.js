@@ -3,7 +3,7 @@
  * @Author: 于振友
  * @Date: 2023-07-31 09:47:07
  * @LastEditors: 于振友
- * @LastEditTime: 2023-07-31 10:24:07
+ * @LastEditTime: 2023-08-07 17:38:19
  */
 import { createRouter, createWebHistory } from 'vue-router'
 import Layout from '../components/Layout.vue'
@@ -88,7 +88,13 @@ const routes = [
         path: '/question',
         name: 'question',
         component: () => import(/* webpackChunkName: "about" */ '../views/question')
-      }
+      },
+      {
+        path: '/elementPlus',
+        name: 'elementPlus',
+        component: () => import(/* webpackChunkName: "about" */ '../views/elementPlus')
+      },
+
     ]
   },
   {
